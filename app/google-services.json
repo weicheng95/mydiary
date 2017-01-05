@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "218548412948",
+    "firebase_url": "https://bestshopever-13c84.firebaseio.com",
+    "project_id": "bestshopever-13c84",
+    "storage_bucket": "bestshopever-13c84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218548412948:android:d6f08debd2a53103",
+        "android_client_info": {
+          "package_name": "com.example.weichenglau.bestshopever"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218548412948-1a9vsluu61c9fu2kac5bdcqirqi19ptc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.weichenglau.bestshopever",
+            "certificate_hash": "F993BF0A264CD2CD5BB01788B689C6F3435F5A41"
+          }
+        },
+        {
+          "client_id": "218548412948-bli9cajge5igjssif731q8pcb9gck11g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu-c5P_s2KtFLuaB-tbDcj0nWVwpQBO4U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218548412948-bli9cajge5igjssif731q8pcb9gck11g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

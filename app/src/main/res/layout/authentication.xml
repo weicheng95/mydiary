@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/authentication"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/login"
+    tools:context="com.example.weichenglau.personalDiary.HomeActivity">
+
+    <LinearLayout
+        android:id="@+id/authentication_login"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="100dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/main_border"
+                    android:layout_weight="2.13"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:background="@drawable/icon_email"
+                        android:id="@+id/LemailTextView"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:inputType="textEmailAddress"
+                        android:ems="10"
+                        android:id="@+id/lEmailField"
+                        android:textSize="18dp"
+                        android:layout_weight="1"
+                        android:textColorLink="@android:color/white"
+                        android:background="@android:color/transparent"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:textCursorDrawable="@drawable/cursor_color"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/main_border"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:background="@drawable/icon_password"
+                        android:id="@+id/LpasswordTextView"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:ems="10"
+                        android:id="@+id/lPasswordField"
+                        android:textSize="18dp"
+                        android:layout_weight="1"
+                        android:textColorLink="@android:color/white"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="5dp"
+                        android:textCursorDrawable="@drawable/cursor_color" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:text="登入 Login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Loginbtn"
+                android:layout_weight="1"
+                android:backgroundTint="#24C6DC"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/cardview_light_background" />
+
+            <TextView
+                android:text="Don't have an account yet? Register here..."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/SignuptextView"
+                android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:gravity="center" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
