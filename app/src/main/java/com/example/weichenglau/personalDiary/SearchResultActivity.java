@@ -49,8 +49,7 @@ public class SearchResultActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         finish();
-        finish();
-        finish();
+
 
     }
 }

@@ -115,7 +115,7 @@ public class CalendarFragment extends Fragment {
                                 posts.add(post);
                             }
                         }
-                        Intent intent = new Intent(getActivity(),SearchResultActivity.class);
+                        Intent intent = new Intent(getActivity().getApplication(),SearchResultActivity.class);
                         intent.putExtra("post", posts);
                         startActivity(intent);
                     }

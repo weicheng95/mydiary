@@ -109,6 +109,8 @@ public class AddPostActivity extends AppCompatActivity {
 
         if(day<10){
             dayInString = "0" + day;
+        }else{
+            dayInString = "" + day;
         }
         yeartv.setText(""+year);
         monthtv.setText(""+monthInString);

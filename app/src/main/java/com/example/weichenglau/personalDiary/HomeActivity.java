@@ -54,6 +54,7 @@ public class HomeActivity extends AppCompatActivity
 
         //float button listener
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -79,6 +80,8 @@ public class HomeActivity extends AppCompatActivity
             showItem(R.id.nav_logout);
             showItem(R.id.nav_home);
             showItem(R.id.nav_calendar);
+            fab.show();
+
 
             //intent to story fragment
             StoryFragment story = new StoryFragment();
@@ -88,6 +91,7 @@ public class HomeActivity extends AppCompatActivity
             transaction.commit();
 
         }else{
+            fab.hide();
             LoginFragment login = new LoginFragment();
             FragmentTransaction transaction = manager.beginTransaction();
             transaction.replace(R.id.content_main, login, "login");
