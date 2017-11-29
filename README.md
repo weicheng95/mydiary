@@ -1,4 +1,4 @@
 
-## web-based 日記程式，結合google firebase將資料儲存在雲端
+## This is a web-based diary android application using Google firebase as database.
 
-## 可下載app-debug.apk 直接進行安裝
+## You can directly download app-debug.apk
